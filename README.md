@@ -8,12 +8,10 @@ $> minikube start
 
 To deploy : 
 
-$> chmod +x deploy.sh
 $> ./deploy.sh
 
 To undeploy :
 
-$> chmod +x undeploy.sh
 $> ./undeploy.sh
 
 ----------------------------------------------------
