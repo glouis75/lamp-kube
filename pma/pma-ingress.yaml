@@ -5,9 +5,9 @@ metadata:
 spec:
   rules:
   - host: pma.cluster.local
-  http:
-    paths:
-    - path: /
-      backend:
-        serviceName: phpmyadmin-service
-        servicePort: 80
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: phpmyadmin-service
+          servicePort: 80
