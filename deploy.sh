@@ -9,3 +9,5 @@ kubectl apply -f pma/pma-ingress.yaml
 echo "[info] All deployed !"
 echo "-------------Service List-------------"
 minikube service list
+echo "-------------Ingress List-------------"
+kubectl get ingress
