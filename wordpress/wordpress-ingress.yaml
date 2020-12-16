@@ -4,7 +4,10 @@ metadata:
   name: wordpress-http-ingress
 spec:
   rules:
-  - host: wordpress.docker.local
-  backend:
-    serviceName: wordpress-service
-    servicePort: 80
+  - host: wordpress.cluster.local
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: wordpress-service
+          servicePort: 80
