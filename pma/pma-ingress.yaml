@@ -9,5 +9,7 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: phpmyadmin-service
-          servicePort: 80
+          service:
+            name: phpmyadmin-service
+            port: 
+              number: 80
