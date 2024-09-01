@@ -1,3 +1,5 @@
+OUTDATED
+
 ------------- LAMP STACK ON KUBERNETES -------------
 
 You first need to create a minikube cluster :
